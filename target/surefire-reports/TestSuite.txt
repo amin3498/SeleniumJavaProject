@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 37.628 s <<< FAILURE! - in TestSuite
+rubastFrameWorkPackage.ValidateTitle.basePage  Time elapsed: 1.346 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<FEATURED COURSES[123]> but was:<FEATURED COURSES[]>
+	at rubastFrameWorkPackage.ValidateTitle.basePage(ValidateTitle.java:39)
+

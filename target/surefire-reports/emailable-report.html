@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Validating Title</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">11,385</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Validating Home Page</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">25,075</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">36,460</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Validating Title &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">rubastFrameWorkPackage.ValidateTitle</td><td><a href="#m0">basePage</a></td><td rowspan="1">1613791063467</td><td rowspan="1">1377</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Validating Home Page &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">rubastFrameWorkPackage.HomePageNavigation</td><td><a href="#m1">basePage</a></td><td rowspan="3">1613791078044</td><td rowspan="3">6137</td></tr><tr class="passedeven"><td><a href="#m2">basePage</a></td></tr><tr class="passedeven"><td><a href="#m3">basePage</a></td></tr></tbody>
+</table>
+<h2>Validating Title</h2><h3 id="m0">rubastFrameWorkPackage.ValidateTitle#basePage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.junit.ComparisonFailure: expected:&lt;FEATURED COURSES[123]&gt; but was:&lt;FEATURED COURSES[]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at rubastFrameWorkPackage.ValidateTitle.basePage(ValidateTitle.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Validating Home Page</h2><h3 id="m1">rubastFrameWorkPackage.HomePageNavigation#basePage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>mamin@yahoo.com</td><td>amin1234</td><td>Non-Restricted user</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">rubastFrameWorkPackage.HomePageNavigation#basePage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>mamin3498@yahoo.com</td><td>amin3498</td><td>New User</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">rubastFrameWorkPackage.HomePageNavigation#basePage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>abc@qw.com</td><td>amin123457</td><td>Restricted user</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
