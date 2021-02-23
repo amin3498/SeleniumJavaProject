@@ -43,7 +43,7 @@ public class ValidateTitle extends Base {
 
 
 	}
-	
+	//A, method will execute after all test
 	@AfterTest
 	public void TearDownTest() {
 		if(driver != null) {

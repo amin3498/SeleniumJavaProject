@@ -28,7 +28,8 @@ public class Base
 		//Following method will Integrate the Properties file with our Frame work.
 		//Properties prop = new Properties();
 		prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:/Div/WorkSpace/RubastFrameWork/src/main/java/resources/data.properties");
+		//FileInputStream fis = new FileInputStream("C:/Div/WorkSpace/RubastFrameWork/src/main/java/resources/data.properties");
+		FileInputStream fis = new FileInputStream("C:/Users/amink/OneDrive/Documents/MyFramework/SeleniumJavaProject/src/main/java/resources/data.properties");
 		prop.load(fis);
 		
 		//A, Method will check the Browser available in Properties file and based on that it will execute the code. 

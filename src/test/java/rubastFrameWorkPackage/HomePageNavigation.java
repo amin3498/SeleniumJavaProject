@@ -66,7 +66,7 @@ public class HomePageNavigation extends Base {
 		return data;
 
 	}
-
+    //This method will execute after all test
 	@AfterTest
 	public void TearDownTest() {
 		if(driver != null) {
