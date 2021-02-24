@@ -18,6 +18,7 @@ public class ValidateTitle extends Base {
 	//A, Method will Execute before any test start execution.
 	@BeforeTest
 	public void SetUpTest() throws Exception {
+		//this will initialize the driver
 		driver = initilizeDriver();
 		log.info("Driver is initilize Successfully");
 		//driver.get("http://www.qaclickacademy.com/");
@@ -36,13 +37,18 @@ public class ValidateTitle extends Base {
 		String title = land.getTitle().getText();
 		log.info("Page title Successfull");
 		System.out.println(title);
+		//Folloing code will validate the Title
 		Assert.assertEquals("FEATURED COURSES", title);
 		String contact = land.getContact().getText();
 		Assert.assertTrue(land.getContact().isDisplayed());
 		land.getLogin().click();
 
-
 	}
+	
+	
+	//A, method will execute after all test
+	//A, method will execute after all test
+	//A, method will execute after all test
 	//A, method will execute after all test
 	@AfterTest
 	public void TearDownTest() {
